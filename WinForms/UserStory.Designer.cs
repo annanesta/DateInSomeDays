@@ -64,6 +64,7 @@ namespace DateInSomeDays
             this.BtnDeleteItem.TabIndex = 1;
             this.BtnDeleteItem.Text = "Delete an item";
             this.BtnDeleteItem.UseVisualStyleBackColor = true;
+            this.BtnDeleteItem.Click += new System.EventHandler(this.BtnDeleteItem_Click);
             // 
             // BtnDeleteAll
             // 
@@ -74,6 +75,7 @@ namespace DateInSomeDays
             this.BtnDeleteAll.TabIndex = 1;
             this.BtnDeleteAll.Text = "Delete all";
             this.BtnDeleteAll.UseVisualStyleBackColor = true;
+            this.BtnDeleteAll.Click += new System.EventHandler(this.BtnDeleteAll_Click);
             // 
             // UserStory
             // 

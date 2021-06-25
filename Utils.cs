@@ -52,6 +52,13 @@ namespace DateInSomeDays
             }
             return month;
         }
-        
+        static public bool IsAny (Stack<StoryStruct> items)
+        {
+            if (items.Count > 0)
+                return true;
+            else
+                return false;
+        }
+
     }
 }
